@@ -1,6 +1,6 @@
 {
-  "title": "@yangsen/html2canvas",
-  "name": "@yangsen/html2canvas",
+  "title": "yangsen-html2canvas",
+  "name": "yangsen-html2canvas",
   "description": "Screenshots with JavaScript",
   "main": "dist/html2canvas.js",
   "module": "dist/html2canvas.esm.js",
