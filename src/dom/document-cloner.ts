@@ -155,6 +155,8 @@ export class DocumentCloner {
 
         const clone = node.cloneNode(false) as T;
         if (isImageElement(clone)) {
+            clone.crossOrigin = 'anonymous';
+
             if (isImageElement(node) && node.currentSrc && node.currentSrc !== node.src) {
                 clone.src = node.currentSrc;
                 clone.srcset = '';
